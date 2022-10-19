@@ -1,0 +1,85 @@
+body{
+    height: auto;
+    background-color: aqua;
+}
+#a{
+    background-color: blueviolet;
+    width: 450px;
+    padding: 50px 40px;
+    position: absolute;
+    transform: translate(-50px,-50px);
+    top: 30%;
+    left:30%;
+    border: 8px;
+    box-shadow: 20px 20px 30px;
+}
+input{
+    display: block;
+    width: auto;
+    margin-top: 5px;
+    padding: 12px;
+    border-radius: 5px;
+    outline: none;
+    color: blue;
+}
+input[type="button"]{
+    background-color: lightblue;
+    border: 5px;
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: auto;
+    float: right;
+}
+button{
+    background-color: lightblue;
+    border: 5px;
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: auto;
+    float: right;
+}
+#b{
+   float:auto;
+}
+
+nav{
+    margin-top: 10px;
+    text-align: left;
+}
+nav ul{
+display: inline-block;
+list-style: none;
+transform: skew(-25deg);
+}
+nav ul li{
+    background-color: greenyellow;
+    float: left;
+    border-right: 1px solid #eee;
+    box-shadow: 1.95px 1.95px 2.6px rgba(0,0,0,1);
+    text-transform: uppercase;
+    color: black;
+    font-weight: 400;
+    transition: all 0.2s linear;
+}
+a{
+    color: inherit;
+    transform: skew(25deg);
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+
+}
+nav ul li:hover{
+background-color: blue;
+color: bisque;
+}
+nav ul li:first-child{
+    border-radius: 7px 7px 7px 7px;
+}
+
